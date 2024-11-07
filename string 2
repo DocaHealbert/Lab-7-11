@@ -1,0 +1,15 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+
+int main(){
+	
+	char flower[10] = "rose";
+	char empty[10] = "";
+	
+	cout << "The length of 'flower' : " << strlen(flower) <<endl;
+	cout << "The length of 'empty' : " << strlen(empty) <<endl;
+	
+	return 0;
+
+}

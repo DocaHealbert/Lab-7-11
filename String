@@ -1,0 +1,17 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+
+int main(){
+	
+	char text[25] = "I love C++";
+	char copy[25];
+	
+	strcpy (copy, text); //copy-destination, text source
+	
+	cout << "The contents of 'text' :" << text <<endl;
+	cout << "The contents of 'copy' :" << copy <<endl;
+	
+	return 0;
+
+}
